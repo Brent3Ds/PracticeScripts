@@ -1,4 +1,5 @@
 // this is a string
+
 let string = "long string"; 
 // making the string dispaly backwards
 function backString(name) {
@@ -39,6 +40,24 @@ function scramble(one,two) {
 } 
 
 let output = scramble("blue","red")
-console.log("Output",output)
+//console.log("Output",output)
 
+
+// # gen 
+
+const genRand = (min, max) => {
+	return Math.floor(Math.random() * (max - min) + min)     
+}
+
+// odd or even 
+
+let random = genRand(0,100)
+	console.log(random)
+	let remainder = random % 2;
+	//console.log(remainder)
+	if (remainder === 0) {
+		console.log("Even")
+	} else if (remainder === 1) {
+		console.log("Odd")
+	}
 
