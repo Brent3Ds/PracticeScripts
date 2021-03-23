@@ -1,5 +1,5 @@
 // this is a string
-
+/*
 let string = "long string"; 
 // making the string dispaly backwards
 function backString(name) {
@@ -43,6 +43,7 @@ let output = scramble("blue","red")
 //console.log("Output",output)
 
 
+
 // # gen 
 
 const genRand = (min, max) => {
@@ -61,3 +62,16 @@ let random = genRand(0,100)
 		console.log("Odd")
 	}
 
+*/
+
+//for loop
+let stack = ["one","two","three","four"];
+
+function loop (rand) {
+	// loop through stack
+	for (let i = 0; i < rand.length; i++) {
+		console.log(rand[i])
+	}
+}
+
+loop(['cat','dog','hat'])
